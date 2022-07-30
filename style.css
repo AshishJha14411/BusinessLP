@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;800;900&family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: #FBFBFB;
+}
+
+header{
+    height: 40rem;
+    background-color: #636C79;
+    padding: 1.5rem 2rem 1.5rem 4rem;
+
+}
+.nav-items{
+    width: 50%;
+    padding: 1rem 0 0 17rem;
+}
+li{
+    font-family: 'Roboto','Raleway';
+    list-style: none;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-btn{
+    background-color: transparent;
+    width: 9rem;
+    height: 2.7rem;
+    border: 1px solid rgb(132, 132, 132);
+    color: white;
+}
+img[alt=nav-logo]{
+    padding-top: 1rem;
+}
+.below-nav{
+    display: flex;
+    padding: 2rem 3rem 2rem 7rem;
+}
+img[alt=nav-below]{
+    width: 25rem;
+}
+.icon {
+    padding: 10px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+.below-nav-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0rem 1rem 0 6rem;
+    color: white
+}
+.bnav-head{
+    font-family: 'Raleway';
+    font-size: 70px;
+}
+.bnav-para{
+    color: #b7b9bb;
+    font-family: 'Raleway';
+    font-weight: 500;
+    padding: 1.5rem 2rem 1.5rem 0;
+    font-size: 22px;
+    width: 40rem;
+}
+
+.icon{
+    color: black;
+}
+input::-webkit-input-placeholder{
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 400;
+}
+input{
+    position: relative;
+    padding-left: 3rem;
+    height: 3rem;
+    width: 25rem;
+}
+.fa-envelope{
+    z-index: 1;
+    padding-top: 1rem;
+    position: absolute;
+}
+.input-talk{
+    z-index: 1;
+    position: absolute;
+    width: 10rem;
+    border: none;
+    background-color: #8BB7A2;
+    height: 2.5rem;
+    margin-top: 0.4rem;
+    margin-left: -10.4rem;
+}
+/* 
+<---Main--->
+ */
+.main{
+    padding: 3rem 3rem 3rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bigtext{
+    text-align: center;
+    font-size: 40px;
+    width: 35rem;
+    padding-left: 27rem;
+    font-family: 'Raleway';
+    padding-bottom: 2rem;
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+}
+.data div h3{
+    font-size: 30px;
+    font-family: 'Roboto';
+    padding: 1rem;
+}
+.data div p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+    color: #636C79;
+    padding-bottom: 5rem;
+}
+
+img[alt=video]{
+    margin-left: 5rem;
+    width: 85%;
+    padding-bottom: 9rem;
+}
+img[alt=person1]{
+    width: 550px;
+}
+
+.img-text{
+    display: flex;
+}
+.img-text-div{
+    padding-bottom: 5rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5rem 2rem 1rem 5rem;
+}
+.bigtext2{
+    font-size: 35px;
+    width: 25rem;
+    font-family: 'Raleway';
+    padding-bottom: 2rem;
+}
+.smalltext{
+    font-family: 'Roboto';
+    width: 33rem;
+    font-size: 20px;
+    color: #636C79;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.talk-btn{
+    width: 10rem;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #8BB7A2;
+    height: 2.5rem;
+}
+img[alt=person2]{
+    width: 600px;
+    height: 600px;
+}
+.textonly{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.great-members{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+img[alt=mika]{
+    width: 400px;
+    height: 495px;
+}
+.nametext{
+    font-family: 'Roboto';
+    padding-top: 2rem;
+}
+.intro{
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 20rem;
+    padding-top: 1rem;
+    color: #636C79;
+}
+.centre{
+    align-self: center;
+    margin-left: -4rem;
+}
+/* 
+<---Footer--->
+ */
+footer{
+    background-color: #10181D;
+    padding: 2rem 2rem 2rem 3rem;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+img[alt=footer-logo]{
+    height: 3rem;
+}
+.social{
+    padding-left: 4rem;
+}
+.hrline{
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+.list-head{
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.footer-lists{
+    display: flex;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20rem;
+    height: 17rem;
+}
+.fo-list-item{
+    padding-bottom: 1rem;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8a8f96;
+}
