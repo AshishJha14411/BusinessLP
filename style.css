@@ -489,6 +489,11 @@ img[alt=footer-logo]{
     }
 }
 @media (min-width: 1920px){
+    body{
+        
+        margin-left: 14rem;
+        width: 100vw;
+    }
     .nav-item{
         font-size: 2rem;
     }
@@ -543,6 +548,9 @@ img[alt=footer-logo]{
     }
     .footer-lists{
         justify-content: space-around;
+    }
+    footer{
+        width: 100vw;
     }
 
 }
