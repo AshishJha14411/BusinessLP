@@ -5,9 +5,6 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 8hours and 30 mins = 6 hours + 2 hours and 30 mins
 
-## Learned 
-- More on creating shapes
-
 ### The deployed Version Link
 
 [Business Landing Page](https://business-lp.netlify.app/)
