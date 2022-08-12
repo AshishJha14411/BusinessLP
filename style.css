@@ -394,7 +394,7 @@ img[alt=footer-logo]{
         padding-left: 12rem;
     }
     footer{
-        width: 30rem;
+        width: 38rem;
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -405,7 +405,7 @@ img[alt=footer-logo]{
     }
     header{
         height: 70rem;
-        width: 48rem;
+        width: 50rem;
     }
     img[alt=nav-logo]{
         margin-left: -2rem;
@@ -501,7 +501,7 @@ img[alt=footer-logo]{
         align-items: center;
     }
     footer{
-        width: 45rem;
+        width: 50rem;
     }
 }
 @media (min-width: 769px) and (max-width: 1150px){
@@ -542,7 +542,7 @@ img[alt=footer-logo]{
         margin-right: 1rem;
     }
     footer{
-        width: 71rem;
+        width: 77rem;
     }
 
 }
