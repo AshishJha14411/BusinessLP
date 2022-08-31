@@ -293,6 +293,10 @@ img[alt=footer-logo]{
 .fo-list-item a:hover{
     color: white;
 }
+.fa-bars{
+    color: white;
+    display: none;
+}
 
 @media (max-width: 575.98px){
     .nav{
@@ -398,11 +402,7 @@ img[alt=footer-logo]{
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
-    .nav{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+   
     header{
         height: 70rem;
         width: 50rem;
@@ -412,38 +412,39 @@ img[alt=footer-logo]{
         width: 7rem;
     }
     .nav-items{
-        margin-left: 1.5rem;
-        width: 30rem;
-        padding: 1rem 5rem 0 0;
+       display: none;
     }
-    .nav-item{
-        margin-left: 1rem;
-        margin-bottom:  1rem;
+    .nav{
+        min-width: 100%;
+        justify-content: space-between;
     }
-    a{  
-        padding: 5rem 0 0 0;
-        margin-top: 1rem;
-    }
+ .fa-bars{
+    margin-top: 1.5rem;
+    display: block;
+ }
     .below-nav{
+        margin: auto;
         margin-top: 4rem;
-        margin-left: 5rem;
         padding: 0 0 0 1.5rem;
         flex-direction: column;
+        align-items: center;;
     }
     .bnav-head{
-        margin-left: -5rem;
+        margin-left: auto;
         padding-left: 0;
         font-size: 3rem;
     }
     .bnav-para{
-        margin-left: -5rem;
+        margin: auto;
         width: 30rem;
+        padding-left: 4rem;
     }
     .nav-input-container{
-        margin-left: -5rem;
+        margin: auto;
     }
     .main{
-        margin-left: 5rem;
+        margin: auto;
+        margin-left: 20%;
     }
     .bigtext{
         margin-left: -6rem;
@@ -594,6 +595,10 @@ img[alt=footer-logo]{
         transform: scale(1.5);
         justify-content: space-around;
         padding: 5rem 7rem;
+    }
+    .benefit{
+        margin: auto;
+        margin-left: 0rem;
     }
     .great-members{
         justify-content: space-around;
